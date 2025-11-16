@@ -1,14 +1,14 @@
 #Assignment
 ###task 1
 
-"""try:
+try:
     with open("t_asgn\\sample.txt",'r') as file:
          print("Reading the file.")
          for i, line in enumerate(file, start=1):
             print(f"Line {i}: {line.strip()}")
 
 except FileNotFoundError:
-    print("Error: The file 'sample.txt' is not present")"""
+    print("Error: The file 'sample.txt' is not present")
 
 ###Task 2
 
@@ -33,3 +33,4 @@ print("\nFinal Content of output.txt")
 with open("output.txt", "r") as file:
     content = file.read()
     print(content)
+
